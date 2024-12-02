@@ -1,0 +1,59 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One:wght@700&display=swap');
+
+.admin-login-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 1rem;
+  background-color: #ff7a00; /* Warna latar belakang sesuai gambar */
+  color: #000; /* Warna teks hitam */
+}
+
+.font-1 {
+  font-family: 'Lilita One', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1.5rem;
+  color: #000; /* Warna teks hitam */
+}
+
+.image-placeholder {
+  width: 200px;
+  height: 200px;
+  background-color: #ccc; /* Placeholder abu-abu */
+  border: 2px dashed #bbb;
+  margin-bottom: 1.5rem;
+}
+
+.admin-login-button {
+  background-color: #e0e0e0; /* Warna tombol abu-abu */
+  color: #000;
+  font-size: 1rem;
+  padding: 0.75rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  margin: 0.5rem 0;
+}
+
+.admin-login-button:hover {
+  background-color: #d6d6d6; /* Warna saat tombol di-hover */
+}
+
+.d-grid {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 300px; /* Lebar maksimum tombol */
+  gap: 0.5rem;
+}
